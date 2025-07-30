@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            © 2024 Oscar Karuga. All rights reserved.
+            © 2025 Oscar Karuga. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link

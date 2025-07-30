@@ -1,12 +1,13 @@
+
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import SkillsSection from "./components/SkillsSection";
 import ExperienceSection from "./components/ExperienceSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ArticlesSection from "./components/ArticlesSection";
 import ContactSection from "./components/ContactSection";
-import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 export default function Portfolio() {
   return (

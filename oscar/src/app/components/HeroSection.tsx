@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Phone, Github, Linkedin } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -57,10 +58,14 @@ export default function HeroSection() {
           </div>
           <div className="flex-shrink-0">
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center">
-              <img
-                src="/placeholder.svg?height=320&width=320"
+              <Image
+                src="/oscar.jpeg"
                 alt="Oscar Karuga"
+                width={288}
+                height={288}
                 className="w-72 h-72 rounded-full object-cover border-4 border-white shadow-lg"
+                priority
+                quality={95}
               />
             </div>
           </div>
